@@ -1,10 +1,10 @@
 <template>
-  <dic class="header">
+  <div class="header">
     <div class="icon"></div>
     <h1 class="text">
       H Music
     </h1>
-  </dic>
+  </div>
 </template>
 
 <script>

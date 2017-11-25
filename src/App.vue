@@ -1,30 +1,25 @@
 <template>
   <div id="app">
-    <header></header>
+    <v-header></v-header>
+    <tab></tab>
     <router-view/>
   </div>
 </template>
 
 <script>
-  import header from 'components/header/header'
-  console.log(header)
+  import VHeader from 'components/header/header'
+  import Tab from 'components/tab/tab'
   export default {
     name: 'app',
     components: {
-      header
+      VHeader,
+      Tab
     }
   }
 
 </script>
 
 <style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
+
 
 </style>
