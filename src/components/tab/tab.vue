@@ -24,12 +24,12 @@
 
 <style lang="stylus" scoped>
 .tab
-  color #f7f7f7
   display flex
   .tab-item
     flex 1
     padding 8px 0
-    background-color #555
     text-align center
+    &.router-link-active
+      border-bottom 2px solid #ffeb3b
 
 </style>
