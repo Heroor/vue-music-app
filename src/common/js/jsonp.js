@@ -17,7 +17,7 @@ function param (data) {
   let url = ''
   for (const k in data) {
     let value = data[k] === undefined ? '' : data[k]
-    url += `&${k}=${window.encodeURIcomponent(value)}`
+    url += `&${k}=${encodeURIComponent(value)}`
   }
   return url ? url.substring(1) : ''
 }

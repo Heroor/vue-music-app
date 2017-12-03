@@ -20,7 +20,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  @import './assets/style'
+  @import './common/style'
   body {
     background-color #333
     color #f7f7f7
